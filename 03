@@ -23,6 +23,5 @@ plt.xlabel('Branch', fontweight ='bold', fontsize = 15)
 plt.ylabel('Students passed', fontweight ='bold', fontsize = 15)
 plt.xticks([r + barWidth for r in range(len(IT))],
         ['2015', '2016', '2017', '2018', '2019'])
-
 plt.legend()
 plt.show()
